@@ -3,6 +3,14 @@ class FooElement extends HTMLElement {
     return ['foo'];
   }
 
+  get foo() {
+    return this.getAttribute('foo');
+  }
+
+  set foo(value) {
+    this.setAttribute('foo', value);
+  }
+
   constructor() {
     super();
     console.log('<foo-element> is created');
