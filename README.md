@@ -38,3 +38,8 @@
   <button slot="foo">Inserted into slot[name=foo]</button>
 </div>
 ```
+
+## 第4章
+
+- 4.4 `<script nomodule src=...>` とすると、ES Modulesに対応していない環境でのみスクリプトが読み込まれる
+  - `<script type="module">` と併用できる
