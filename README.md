@@ -12,3 +12,15 @@
   - Custom Elements
   - Shadow DOM
   - ES Modules
+
+## 第3章
+
+- 3.2 `attachShadow()` できるDOM要素は限定されている
+  - article
+  - aside
+  - blockquote
+  - body
+  - div
+  - h1, h2, ... , h6
+  - header, main, footer
+  - p, section, span, nav
