@@ -24,6 +24,7 @@
   - h1, h2, ... , h6
   - header, main, footer
   - p, section, span, nav
+  - ref. https://dom.spec.whatwg.org/#dom-element-attachshadow
 - 3.4 `<slot>` 要素を使うと、ホスト要素の子要素をShadow DOM内に挿入できる
 
 ```html
