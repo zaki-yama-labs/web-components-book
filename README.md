@@ -1,5 +1,7 @@
-よくわかる Web Components
-=======================
+「[よくわかる Web Components](https://booth.pm/ja/items/1027807)」メモ
+==============================
+
+## 第1章
 
 - Web Components とは
   - 部品の本質的な再利用を、web標準技術で可能にする概念
