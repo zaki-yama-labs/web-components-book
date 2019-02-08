@@ -43,3 +43,11 @@
 
 - 4.4 `<script nomodule src=...>` とすると、ES Modulesに対応していない環境でのみスクリプトが読み込まれる
   - `<script type="module">` と併用できる
+
+## 第5章
+
+- 5.3 [lit-html](https://github.com/Polymer/lit-html)
+  - Polymer チームが開発
+  - 仮想DOMのような仕組みを使って効率よくDOMを更新できる
+  - ``html`<div>...` `` でテンプレートを記述し
+  - `render(this.template, this.shadowRoot)` で render する
