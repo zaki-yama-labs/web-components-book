@@ -1,3 +1,5 @@
+import { html, render } from "lit-html";
+
 class FancyParagraph extends HTMLElement {
   static get observedAttributes() {
     return ['color'];
@@ -6,15 +8,15 @@ class FancyParagraph extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-    this.shadowRoot.innerHTML = this.template;
+    render(this.template, this.shadowRoot);
   }
 
   attributeChangedCallback() {
-    this.shadowRoot.innerHTML = this.template;
+    render(this.template, this.shadowRoot);
   }
 
   get template() {
-    return `
+    return html`
       <style>p { color: ${this.getAttribute('color'); }</style>
       <p><slot /></p>
     `;
